@@ -12,6 +12,12 @@
 
 包只含 `mewu-plugin.json`、`index.mjs` 和 `view.mjs`。许可证 MPL-2.0。
 
+## 实际界面
+
+![Windows 中的工具包及已收藏图片的缩略图](screenshots/toolbox-windows.png)
+
+MewuAI 1.0.4 候选版本与本插件 0.1.1 的实拍；只裁去了插件外的桌面。已在 Windows 中验证拖入图片、真实缩略图、拖出创建副本和 Esc 收起。三端完整验收和安装包发布仍在进行。
+
 ## 安装
 
 需要 MewuAI 1.0.4 或更新版本。在 Mewu 的插件市场安装，或从本仓库 Releases 下载 ZIP，在设置 → 插件中添加。插件无需 Node.js、Electron 或模型密钥。
