@@ -16,7 +16,7 @@
 
 ![Windows 中的工具包及已收藏图片的缩略图](screenshots/toolbox-windows.png)
 
-MewuAI 1.0.4 候选版本与本插件 0.1.1 的实拍；只裁去了插件外的桌面。已在 Windows 中验证拖入图片、真实缩略图、拖出创建副本和 Esc 收起。三端完整验收和安装包发布仍在进行。
+MewuAI 1.0.4 候选版本与本插件 0.1.2 的实拍；只裁去了插件外的桌面。已在 Windows 中验证拖入图片、真实缩略图、拖出创建副本和 Esc 收起。三端完整验收和安装包发布仍在进行。
 
 ## 安装
 
@@ -29,7 +29,7 @@ MewuAI 1.0.4 候选版本与本插件 0.1.1 的实拍；只裁去了插件外的
 在 [Mewu 源码仓库](https://github.com/abnste/mewu_ai) 中编译插件校验器后，用其发行工具对本项目打包：
 
 ```sh
-node /path/to/mewu_ai/tools/extension-market/cli.mjs pack . --file view.mjs --out mewu-plugin-object-toolbox-0.1.1.zip --validator /path/to/mewu-plugin-validator
+node /path/to/mewu_ai/tools/extension-market/cli.mjs pack . --file view.mjs --out mewu-plugin-object-toolbox-0.1.2.zip --validator /path/to/mewu-plugin-validator
 ```
 
 插件 ID 保持不变，更新不会另建一份存储。停用和卸载会撤销界面与执行权限，但保留插件自身内容；重装同一插件可以恢复。
