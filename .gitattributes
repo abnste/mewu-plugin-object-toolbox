@@ -1,3 +1,7 @@
 * text=auto eol=lf
 *.png binary
 *.zip binary
+
+# Keep the tested 0.1.4 package payload reproducible byte for byte.
+mewu-plugin.json -text
+view.mjs -text
