@@ -38,4 +38,4 @@ node /path/to/mewu_ai/tools/extension-market/cli.mjs pack . --file view.mjs --ou
 
 支持将对象一次拖入收起的工具包入口并直接收藏；保留原收藏和恢复能力。包内包含完整视图模块。
 
-![Ubuntu 实际单次拖入与缩略图](screenshots/ubuntu-first-drop-014.png)
+![Ubuntu 实际单次拖入与缩略图](screenshots/ubuntu-first-drop-014.jpg)
